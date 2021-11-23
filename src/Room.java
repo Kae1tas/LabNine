@@ -3,9 +3,6 @@ public class Room {
     private String colour;
     private double square;
 
-    //public void setType(String types){
-   //     type = types;
-   // }
     public void setColour(String colours){
         colour = colours;
     }
@@ -16,7 +13,6 @@ public class Room {
         square = squares;
     }
 
-    //public String getType(){return type;}
     public String getFloor(){ return floor; }
     public String getColour(){
         return colour;
@@ -30,12 +26,10 @@ public class Room {
         floor = "отсутствует";
         colour = "без цвета";
         square = 0;
-        //type = "черновая";
     }
     public Room(String floorM, String colours, int squares){
         floor = floorM;
         colour = colours;
         square = squares;
-        //type = types;
     }
 }
